@@ -37,6 +37,8 @@ gem 'money-rails'
 # Stripe
 gem 'stripe'
 
+gem 'mini_racer', platforms: :ruby
+
 # ImageMagick ( Make sure librairies installed )
 gem 'rmagick'
 
@@ -44,6 +46,7 @@ gem 'rmagick'
 gem 'faker'
 gem 'carrierwave'
 
+gem 'autoprefixer-rails', '~> 10.4.2.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
